@@ -14,7 +14,7 @@ O projeto retrata-se a operações básicas de um CRUD, como criar, editar, list
 ## Instrução de uso
 1. Ao criar um projeto pelo spring initializr, a execução do código ficará por conta do Tomcat, onde rodará na porta 8080;
 2. Será necessário inicializar o servidor do MySQL no XAMPP;
-3. Antes de rodar pela primeira vez o código, certifique-se de criar um banco e configurar o arquivo application.properties;
+3. Antes de rodar pela primeira vez o código, certifique-se de criar um banco e configurar o arquivo application.properties. Esse arquivo é responsável principalmente por fazer a conexão com o MySQL;
 4. A porta que se encontra no arquivo application.properties, deve ser a mesma que o mysql roda no seu pc.
 
 ### application.properties
