@@ -12,10 +12,11 @@ O projeto retrata-se a operações básicas de um CRUD, como criar, editar, list
 * Utilizar o <a href='https://www.postman.com/downloads/'>Postman</a> ou outra ferramenta para testes de requisições na api.
 
 ## Instrução de uso
-1. Ao criar um projeto pelo spring initializr, a execução do código ficará por conta do Tomcat, onde rodará na porta 8080;
+1. Ao criar um projeto pelo spring initializr e utilizar o gerenciador de pacotes **Maven**, a execução do código ficará por conta do Tomcat, onde rodará na porta 8080;
 2. Será necessário inicializar o servidor do MySQL no XAMPP;
-3. Antes de rodar pela primeira vez o código, certifique-se de criar um banco e configurar o arquivo application.properties. Esse arquivo é responsável principalmente por fazer a conexão com o MySQL;
-4. A porta que se encontra no arquivo application.properties, deve ser a mesma que o mysql roda no seu pc.
+3. A API ficará acessivel em <a>http://localhost:8080</a>
+4. Antes de rodar pela primeira vez o código, certifique-se de criar um banco e configurar o arquivo application.properties. Esse arquivo é responsável principalmente por fazer a conexão com o MySQL;
+5. A porta que se encontra no arquivo application.properties, deve ser a mesma que o mysql roda no seu pc.
 
 ### application.properties
 ```properties
