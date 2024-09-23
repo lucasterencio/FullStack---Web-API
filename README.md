@@ -22,7 +22,7 @@ O projeto retrata-se a operações básicas de um CRUD, como criar, editar, list
 spring.application.name=PROJECT_NAME
 
 spring.jpa.hibernate.ddl-auto=update
-spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/MYSQL_DATABASE
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:PORT/MYSQL_DATABASE
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 spring.datasource.username=MYSQL_USER
