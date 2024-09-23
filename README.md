@@ -6,4 +6,4 @@ O projeto retrata-se a operações básicas de um CRUD, como criar, editar, list
 ## Instrução de instalação
 * IDE do seu gosto;
 * XAMPP, para conexão com banco de dados;
-* Dependências necessárias <a href='https://start.spring.io/' targer='_blank'>aqui</a>
+* Dependências necessárias <a href='https://start.spring.io/' target='_blank'>aqui</a>
