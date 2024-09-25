@@ -35,8 +35,11 @@ spring.datasource.password=MYSQL_PASSWORD
 A API possui os seguintes endpoints:
 
 ```
+POST /usuarios - Salvar um usuário no banco de dados.
 GET /usuarios - Listar todos os usuários cadastrados.
-
+GET /usuarios/id - Buscar um usuário pelo id.
+DELETE /usuarios/id - Deletar um usuário pelo id.
+PUT /usuarios - Atualizar um usuário pelo body
 ```
 
 
